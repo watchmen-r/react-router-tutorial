@@ -5,7 +5,8 @@ import EditProfile from '../components/EditProfile'
 const Profile = () => {
 
   const {path, url} = useRouteMatch()
-
+  console.log(useRouteMatch())
+  
   return (
     <>
       <h1>Profile page</h1>
